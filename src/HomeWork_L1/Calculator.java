@@ -14,21 +14,14 @@ public class Calculator {
         System.out.println("Введіть число:");
         number2 = in.nextDouble();
         switch (operator) {
-            case '+':
-                result = number1 + number2;
-                break;
-            case '-':
-                result = number1 - number2;
-                break;
-            case '*':
-                result = number1 * number2;
-                break;
-            case '/':
-                result = number1 / number2;
-                break;
-            default:
+            case '+' -> result = number1 + number2;
+            case '-' -> result = number1 - number2;
+            case '*' -> result = number1 * number2;
+            case '/' -> result = number1 / number2;
+            default -> {
                 System.out.println("Помилка!Невірна операція");
                 return;
+            }
         }
         System.out.println("Результат");
         System.out.println(result);
