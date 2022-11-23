@@ -1,6 +1,6 @@
-package HomeWork_L1;
+package HomeWork_L2;
 
-import java.util.Scanner;
+
 
 public class Name {
     public static void main(String[] args) {
